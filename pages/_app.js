@@ -31,9 +31,12 @@ export default class MyApp extends App {
           </div>
 
           <div className="flex">
-            <Menu className="sticky w-48 flex-no-grow flex-shrink border-r p-4" />
+            <Menu className="sticky w-48 flex-no-grow flex-shrink border-r" />
 
-            <div className="py-8 px-10" style={{ maxWidth: "75%" }}>
+            <div
+              className="py-8 px-10"
+              style={{ maxWidth: "75%", flexBasis: "66.6667%" }}
+            >
               <Component {...pageProps} />
             </div>
 
