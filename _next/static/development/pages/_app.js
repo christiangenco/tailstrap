@@ -11697,24 +11697,151 @@ function (_App) {
           lineNumber: 24
         },
         __self: this
-      }, __jsx("title", {
+      }, __jsx("meta", {
+        charset: "utf-8",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, "Tailstrap")), __jsx("div", {
+      }), __jsx("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Tailstrap"), __jsx("meta", {
+        name: "description",
+        content: "Bootstrap-inspired pre-built Tailwind components.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "image",
+        content: "https://i.imgur.com/CZRd9Ce.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }), __jsx("meta", {
+        itemprop: "name",
+        content: "Tailstrap",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }), __jsx("meta", {
+        itemprop: "description",
+        content: "Bootstrap-inspired pre-built Tailwind components.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), __jsx("meta", {
+        itemprop: "image",
+        content: "https://i.imgur.com/CZRd9Ce.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "twitter:card",
+        content: "summary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "twitter:title",
+        content: "Tailstrap",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "twitter:description",
+        content: "Bootstrap-inspired pre-built Tailwind components.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "twitter:site",
+        content: "@cgenco",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "twitter:image:src",
+        content: "https://i.imgur.com/CZRd9Ce.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "og:title",
+        content: "Tailstrap",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "og:description",
+        content: "Bootstrap-inspired pre-built Tailwind components.",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "og:image",
+        content: "https://i.imgur.com/CZRd9Ce.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "og:url",
+        content: "http://christian.gen.co/tailstrap",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }), __jsx("meta", {
+        name: "og:type",
+        content: "website",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        },
+        __self: this
+      })), __jsx("div", {
         className: "text-black leading-normal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 62
         },
         __self: this
       }, __jsx("div", {
         className: "sticky top-0 z-10 h-16 py-2 px-4 flex items-center bg-indigo-800 text-indigo-100",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 63
         },
         __self: this
       }, __jsx("a", {
@@ -11722,21 +11849,21 @@ function (_App) {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 64
         },
         __self: this
       }, "T")), __jsx("div", {
         className: "flex",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 72
         },
         __self: this
       }, __jsx(_components_Menu__WEBPACK_IMPORTED_MODULE_11__["default"], {
         className: "sticky w-48 flex-no-grow flex-shrink border-r",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 73
         },
         __self: this
       }), __jsx("div", {
@@ -11747,13 +11874,13 @@ function (_App) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 75
         },
         __self: this
       }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 79
         },
         __self: this
       }))), __jsx("div", {
@@ -11763,7 +11890,7 @@ function (_App) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 82
         },
         __self: this
       }, " "))));
