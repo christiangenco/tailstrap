@@ -15,11 +15,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/config */ "./node_modules/next/dist/next-server/lib/runtime-config.js");
+/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/cgenco/Projects/_incubating/tailstrap/components/Menu.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+var assetPrefix = next_config__WEBPACK_IMPORTED_MODULE_3___default()().publicRuntimeConfig.assetPrefix;
 var SectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(function (_ref) {
   var router = _ref.router,
       href = _ref.href,
@@ -29,20 +33,20 @@ var SectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])
       _ref$className = _ref.className,
       className = _ref$className === void 0 ? "" : _ref$className;
   return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: href,
+    href: assetPrefix + href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 9
     },
     __self: this
   }, __jsx("a", {
     className: "no-underline block font-medium hover:text-gray-900 p-1 " + (selected || router.pathname === href ? "text-black" : "text-gray-800") + " " + className,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 10
     },
     __self: this
-  }, children));
+  }, children, " prefix: ", assetPrefix));
 });
 var SubsectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(function (_ref2) {
   var router = _ref2.router,
@@ -56,7 +60,7 @@ var SubsectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter
     className: "text-sm ".concat(router.pathname === href ? "font-bold" : "font-normal"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
   }, children);
@@ -71,14 +75,14 @@ var SubsectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   },  false && false, __jsx("div", {
     className: "overflow-y-scroll h-full border-t p-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   },  false && false,  false && false,  false && false, __jsx(SectionLink, {
@@ -86,248 +90,248 @@ var SubsectionLink = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter
     selected: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, "Components"), __jsx("ul", {
     className: "list-reset",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 63
     },
     __self: this
   }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx(SubsectionLink, {
-    href: "/alerts",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Alerts")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/badge",
+    href: "/alerts",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
-  }, "Badge")), __jsx("li", {
+  }, "Alerts")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/breadcrumb",
+    href: "/badge",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }, "Breadcrumb")), __jsx("li", {
+  }, "Badge")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/buttons",
+    href: "/breadcrumb",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 71
     },
     __self: this
-  }, "Buttons")), __jsx("li", {
+  }, "Breadcrumb")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/button group",
+    href: "/buttons",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74
     },
     __self: this
-  }, "Button group")), __jsx("li", {
+  }, "Buttons")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/card",
+    href: "/button group",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
     },
     __self: this
-  }, "Card")), __jsx("li", {
+  }, "Button group")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/dropdowns",
+    href: "/card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     },
     __self: this
-  }, "Dropdowns")), __jsx("li", {
+  }, "Card")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/forms",
+    href: "/dropdowns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }, "Forms")), __jsx("li", {
+  }, "Dropdowns")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/inputGroup",
+    href: "/forms",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, "Input group")), __jsx("li", {
+  }, "Forms")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/jumbotron",
+    href: "/inputGroup",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Jumbotron")), __jsx("li", {
+  }, "Input group")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/listGroup",
+    href: "/jumbotron",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
     },
     __self: this
-  }, "List group")), __jsx("li", {
+  }, "Jumbotron")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/modal",
+    href: "/listGroup",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
     },
     __self: this
-  }, "Modal")), __jsx("li", {
+  }, "List group")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/navs",
+    href: "/modal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 98
     },
     __self: this
-  }, "Navs")), __jsx("li", {
+  }, "Modal")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 100
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/navbar",
+    href: "/navs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     },
     __self: this
-  }, "Navbar")), __jsx("li", {
+  }, "Navs")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/pagination",
+    href: "/navbar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104
     },
     __self: this
-  }, "Pagination")), __jsx("li", {
+  }, "Navbar")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/popovers",
+    href: "/pagination",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 107
     },
     __self: this
-  }, "Popovers")), __jsx("li", {
+  }, "Pagination")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 109
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/progress",
+    href: "/popovers",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 110
     },
     __self: this
-  }, "Progress")), __jsx("li", {
+  }, "Popovers")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112
     },
     __self: this
   }, __jsx(SubsectionLink, {
-    href: "/tooltips",
+    href: "/progress",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 113
+    },
+    __self: this
+  }, "Progress")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }, __jsx(SubsectionLink, {
+    href: "/tooltips",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
     },
     __self: this
   }, "Tooltips")))));
@@ -7304,6 +7308,36 @@ function getRouteRegex(normalizedRoute) {
 }
 
 exports.getRouteRegex = getRouteRegex;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/runtime-config.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/runtime-config.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var runtimeConfig;
+
+exports["default"] = function () {
+  return runtimeConfig;
+};
+
+function setConfig(configValue) {
+  runtimeConfig = configValue;
+}
+
+exports.setConfig = setConfig;
 
 /***/ }),
 
