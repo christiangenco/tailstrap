@@ -2,7 +2,7 @@ import Example from "../components/Example";
 
 const Badge = ({ color = "blue", children }) => (
   <div
-    className={`rounded border border-${color}-light text-${color}-darker bg-${color}-lighter p-4 mb-4`}
+    className={`rounded border border-${color}-400 text-${color}-800 bg-${color}-200 p-4 mb-4`}
     role="alert"
   >
     {children}
@@ -11,8 +11,8 @@ const Badge = ({ color = "blue", children }) => (
 
 export default () => (
   <div>
-    <h1 className="font-light text-5xl">Badges</h1>
-    <p className="text-2xl font-light leading-normal w-4/5">
+    <h1 className="font-400 text-5xl">Badges</h1>
+    <p className="text-2xl font-400 leading-normal w-4/5">
       Documentation and examples for badges, our small count and labeling
       component.
     </p>
@@ -24,79 +24,42 @@ export default () => (
     </p>
 
     <Example
-      code={`<h1 class="mb-2 font-medium">
+      code={`<h1 class="text-5xl mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h1>
-<h2 class="mb-2 font-medium">
+<h2 class="text-4xl mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h2>
-<h3 class="mb-2 font-medium">
+<h3 class="text-3xl mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h3>
-<h4 class="mb-2 font-medium">
+<h4 class="text-2xl mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h4>
-<h5 class="mb-2 font-medium">
+<h5 class="text-xl mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h5>
 <h6 class="mb-2 font-medium">
   Example heading
-  <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
+  <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
 </h6>`}
-    >
-      <h1 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h1>
-      <h2 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h2>
-      <h3 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h3>
-      <h4 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h4>
-      <h5 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h5>
-      <h6 className="mb-2 font-medium">
-        Example heading{" "}
-        <span className="bg-grey-darker rounded text-grey-lightest px-2 py-1">
-          New
-        </span>
-      </h6>
-    </Example>
+    />
   </div>
 );

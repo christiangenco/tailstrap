@@ -2,10 +2,18 @@ import Highlight from "react-highlight";
 
 export default ({ children, code }) => (
   <>
-    <div className="border-4 border-grey-lightest p-6 mt-2">{children}</div>
-    <div className="bg-grey-lightest overflow-y-scroll w-full p-4 relative">
+    {children ? (
+      <div className="border-4 border-gray-100 p-6 mt-2">{children}</div>
+    ) : (
+      <div
+        className="border-4 border-gray-100 p-6 mt-2"
+        dangerouslySetInnerHTML={{ __html: code }}
+      />
+    )}
+
+    <div className="bg-gray-100 overflow-y-scroll w-full p-4 relative">
       <button
-        className="absolute pin-t pin-r rounded text-grey-dark mr-1 p-2 hover:bg-blue hover:text-blue-lightest text-sm"
+        className="absolute top-0 right-0 rounded text-gray-600 mr-1 px-2 py-1 hover:bg-blue-500 hover:text-blue-100 text-sm"
         onClick={() => {}}
       >
         Copy

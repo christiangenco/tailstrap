@@ -3,13 +3,13 @@ import { withRouter } from "next/router";
 
 const SectionLink = withRouter(
   ({ router, href, children, selected = false, className = "" }) => (
-    <Link href={href} activeClassName="text-black">
+    <Link href={href}>
       <a
         className={
-          "no-underline block font-medium hover:text-grey-darkest p-1 " +
+          "no-underline block font-medium hover:text-gray-900 p-1 " +
           (selected || router.pathname === href
             ? "text-black"
-            : "text-grey-darker") +
+            : "text-gray-800") +
           " " +
           className
         }

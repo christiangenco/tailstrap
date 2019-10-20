@@ -10,7 +10,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Tailstrap</title>
           <link
             href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
             rel="stylesheet"
