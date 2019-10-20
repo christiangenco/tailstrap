@@ -4,7 +4,7 @@
 /*!********************************!*\
   !*** ./components/Elements.js ***!
   \********************************/
-/*! exports provided: H1, Subheading, H2 */
+/*! exports provided: H1, Subheading, H2, P, A, Code */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,6 +12,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H1", function() { return H1; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Subheading", function() { return Subheading; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H2", function() { return H2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return P; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return A; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Code", function() { return Code; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _jsxFileName = "/Users/cgenco/Projects/_incubating/tailstrap/components/Elements.js";
@@ -50,6 +53,41 @@ var H2 = function H2(_ref3) {
     __self: this
   }, children);
 };
+var P = function P(_ref4) {
+  var children = _ref4.children;
+  return __jsx("p", {
+    className: "mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, children);
+};
+var A = function A(_ref5) {
+  var href = _ref5.href,
+      children = _ref5.children;
+  return __jsx("a", {
+    href: href,
+    className: "text-blue-600 hover:underline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, children);
+};
+var Code = function Code(_ref6) {
+  var children = _ref6.children;
+  return __jsx("span", {
+    className: "font-mono text-purple-500",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, children);
+};
 
 /***/ }),
 
@@ -72,7 +110,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var children = _ref.children,
-      code = _ref.code;
+      code = _ref.code,
+      _ref$language = _ref.language,
+      language = _ref$language === void 0 ? "html" : _ref$language;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, children ? __jsx("div", {
     className: "border-4 border-gray-100 p-6 mt-2",
     __source: {
@@ -106,7 +146,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, "Copy"), __jsx(react_highlight__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "jsx",
+    className: language,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
