@@ -1,0 +1,56 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!github-gist.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--5-1!github-gist.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/_app.js": 2,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/_error.js": 3,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/alerts.js": 4,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/badge.js": 5,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/breadcrumb.js": 6,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/buttons.js": 7,
+      "static/79r1h0uFvJ3AO4jgivxG2/pages/index.js": 8,
+      "static/runtime/main.js": 9,
+      "styles": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

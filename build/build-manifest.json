@@ -1,0 +1,47 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/css/styles.edc80fc4.chunk.css",
+      "static/chunks/styles.984495e41ed4484cc861.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/alerts": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/badge": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/breadcrumb": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/buttons": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/chunks/commons.bf382f96d3576cca5c8d.js",
+      "static/runtime/main-6d0e5b51eb4b00141e8f.js"
+    ]
+  }
+}
