@@ -2,9 +2,8 @@ import Example from "../components/Example";
 import { H1, Subheading, H2 } from "../components/Elements";
 import { useState } from "react";
 
-const Alert = ({ color = "blue", children }) => {
+function Alert({ color = "blue", children }) {
   const [show, setShow] = useState(true);
-
   return show ? (
     <div
       className={`rounded border border-${color}-400 text-${color}-800 bg-${color}-200 p-4 mb-4 relative`}
@@ -24,7 +23,7 @@ const Alert = ({ color = "blue", children }) => {
   ) : null;
 };
 
-export default () => (
+export default function accordian() { return (
   <div>
     <H1>Alerts</H1>
     <Subheading>
@@ -100,5 +99,4 @@ A simple info alert—check it out!
 </div>
 `}
     />
-  </div>
-);
+  </div>)}

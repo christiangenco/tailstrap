@@ -1,13 +1,13 @@
 import Example from "../components/Example";
 
-const Badge = ({ color = "blue", children }) => (
+function Badge({ color = "blue", children }) {render(
   <div
     className={`rounded border border-${color}-400 text-${color}-800 bg-${color}-200 p-4 mb-4`}
     role="alert"
   >
     {children}
   </div>
-);
+)}
 
 export default () => (
   <div>
@@ -29,31 +29,31 @@ export default () => (
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
-</h1>
+</h1><br>
 <h2 class="text-4xl mb-2 font-medium">
   Example heading
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
-</h2>
+</h2><br>
 <h3 class="text-3xl mb-2 font-medium">
   Example heading
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
-</h3>
+</h3><br>
 <h4 class="text-2xl mb-2 font-medium">
   Example heading
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
-</h4>
+</h4><br>
 <h5 class="text-xl mb-2 font-medium">
   Example heading
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">
     New
   </span>
-</h5>
+</h5><br>
 <h6 class="mb-2 font-medium">
   Example heading
   <span class="bg-gray-600 rounded text-gray-100 px-2 py-1">

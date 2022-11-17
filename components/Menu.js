@@ -3,19 +3,13 @@ import { withRouter } from "next/router";
 
 const SectionLink = withRouter(
   ({ router, href, children, selected = false, className = "" }) => (
-    <Link href={href}>
-      <a
-        className={
-          "no-underline block font-medium hover:text-gray-900 p-1 " +
-          (selected || router.pathname === href
-            ? "text-black"
-            : "text-gray-800") +
-          " " +
-          className
-        }
-      >
+    <Link href={href}
+      className={
+        "no-underline block font-medium hover:text-gray-900 p-1 " +
+        (selected || router.pathname === href
+          ? "text-black"
+          : "text-gray-800")+" "+className}>
         {children}
-      </a>
     </Link>
   )
 );
@@ -48,6 +42,9 @@ export default ({ className }) => (
       </SectionLink>
 
       <ul className="list-reset">
+        <li>
+          <SubsectionLink href="/accordion">Accordion</SubsectionLink>
+        </li>
         <li>
           <SubsectionLink href="/alerts">Alerts</SubsectionLink>
         </li>

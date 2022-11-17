@@ -1,2 +1,8 @@
-const withCSS = require("@zeit/next-css");
-module.exports = withCSS();
+module.exports = {
+    reactStrictMode: false,
+    swcMinify: true,
+    i18n: {
+        locales: ["en"],
+        defaultLocale: "en",
+    },
+}
