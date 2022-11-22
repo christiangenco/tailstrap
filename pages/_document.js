@@ -1,5 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
-
+import Document, { Html,Head, Main,NextScript } from "next/document";
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -8,7 +7,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <link
             href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
@@ -17,7 +16,7 @@ export default class MyDocument extends Document {
         </Head>
         <Main />
         <NextScript />
-      </html>
+      </Html>
     );
   }
 }
